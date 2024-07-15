@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web developer assignment</title>
+    <link href="Bootstrap/bootstrap-5.3.0.css" rel="stylesheet">
+    <script src="Jquery/jquery-3.6.0.js"></script>
+    <script src="Bootstrap/bootstrap-5.3.0.js"></script>
+    <script src="index.js" ></script>
+    <link href="index.css" rel="stylesheet">
+</head>
+<body>
+    <!--Contact US STart-->
+    <div class="container mb-5 pb-5">
+        <div class="row">
+            <div class="col-md-6 text-section">
+                <h2 class="Award">Award Winning</h2>
+                <span class="digital pb-5">DIGITAL MARKETING AGENCY</span>
+                <span class="Contact Lorem pt-1 pb-5">Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque vitae ante at elit fringilla ac at purus, Morbi sed lacus nec risus finibus feugiat et fermentum</span>
+                <button id="alertButton" class="btn btn-primary float-start" data-bs-toggle="modal" data-bs-target="#contactModal"><span class="buttontext">CONTACT US</span></button>
+            </div>
+            <div class="col-md-6 image-section">
+                <img src="Images/hero.png" alt="Placeholder Image" class="img-fluid">
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content p-3">
+                <div class="modal-body">
+                    <h4 class="modal-title talk pb-3 " id="contactModalLabel">Talk to Us</h4>
+                    <form id="contactForm">
+                        <div class="form-floating">
+                            <input type="email" name="email" class="form-control" id="workEmail" placeholder=" " required>
+                            <label for="workEmail" class="ps-0 custom-label">Work Email</label>
+                        </div>
+                        <div class="row">
+                            <div class="col-6 form-floating">
+                                <input type="text" name="firstName" class="form-control" id="firstName" placeholder=" " required>
+                                <label for="firstName" class="custom-label">First Name</label>
+                            </div>
+                            <div class="col-6 form-floating">
+                                <input type="text" name="lastName" class="form-control" id="lastName" placeholder=" " required>
+                                <label for="lastName" class="custom-label">Last Name</label>
+                            </div>
+                        </div>
+                        <div class="form-check mb-3 mt-4">
+                            <input type="checkbox" class="form-check-input" id="checkMe">
+                            <label class="form-check-label" for="checkMe">I agree to the terms and conditions</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100 btn-custom mt-3"><span class="btn-custom-span">Contact Us</span> </button>
+                    </form>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Contact us ENd-->
+    <!-- /*Serive Provide For you Start*/  -->
+<div class="mainbox">
+<div class="container mt-4">
+    <div class="muted-text mb-4">
+       <span> WHAT WE DO</span>
+    </div>
+    <div class="row mb-4 pb-4">
+        <div class="service col-md-4">
+            <span>Services provide for you</span>
+        </div>
+        <div class="morbi col-md-5 mt-4">
+            <span>Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque vitae ante at elit fringilla ac at purus, Morbi sed lacus nec risus finibus feugiat et fermentum</span>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12 mb-3">
+            <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-3 hover-container">
+                                <img class="img-fluid" src="Images/2.png" alt="Image 1">
+                            </div>
+                            <div class="col-3 hover-container">
+                                <img class="img-fluid" src="Images/3.png" alt="Image 2">
+                            </div>
+                            <div class="col-3 hover-container">
+                                <img class="img-fluid" src="Images/1.png" alt="Image 3">
+                            </div>
+                            <div class="col-3 hover-container">
+                                <img class="img-fluid" src="Images/2.png" alt="Image 4">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-3 hover-container">
+                                <img class="img-fluid" src="Images/1.png" alt="Image 5">
+                            </div>
+                            <div class="col-3 hover-container">
+                                <img class="img-fluid" src="Images/2.png" alt="Image 6">
+                            </div>
+                            <div class="col-3 hover-container">
+                                <img class="img-fluid" src="Images/3.png" alt="Image 7">
+                            </div>
+                            <div class="col-3 hover-container">
+                                <img class="img-fluid" src="Images/2.png" alt="Image 8">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-3 hover-container">
+                                <img class="img-fluid" src="Images/2.png" alt="Image 9">
+                            </div>
+                            <div class="col-3 hover-container">
+                                <img class="img-fluid" src="Images/3.png" alt="Image 10">
+                            </div>
+                            <div class="col-3 hover-container">
+                                <img class="img-fluid" src="Images/1.png" alt="Image 11">
+                            </div>
+                            <div class="col-3 hover-container">
+                                <img class="img-fluid" src="Images/2.png" alt="Image 12">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="custom-carousel-indicators row">
+        <div class="col-auto">
+            <div class="custom-indicator active" data-bs-target="#carouselExample" data-bs-slide-to="0">
+                <img src="Images/Active-button.png" alt="Indicator 1">
+            </div>
+        </div>
+        <div class="col-auto">
+            <div class="custom-indicator" data-bs-target="#carouselExample" data-bs-slide-to="1">
+                <img src="Images/button.png" alt="Indicator 2">
+            </div>
+        </div>
+        <div class="col-auto">
+            <div class="custom-indicator" data-bs-target="#carouselExample" data-bs-slide-to="2">
+                <img src="Images/button.png" alt="Indicator 3">
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+    <!--Serive Provide For you END-->
+     <!--Our project Start-->
+     <div class="container">
+        <div class="header-text mt-5">
+            <h3 class="Firstheading pt-3 pb-3">
+                <span>WHY CHOOSE US</span> </h3>
+        </div>
+        <div class="subtitle-text mt-2 mb-5">
+            <span>WHY WE ARE BEST</span>
+        </div>
+        <div class="row ">
+            <div class="col-3 best ">
+                <div ><img  src="Images/1.svg" class="img-fluid" alt="Project Image"></div>
+                <span class="heading1">Clarified Vision & Target</span>
+                <span class="text1 mt-n3">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.</span>
+            </div>
+            <div class="col-3 best">
+                <div ><img  src="Images/2.svg" class="img-fluid" alt="Project Image"></div>
+                <span class="heading1">High Performance</span>
+                <span class="text1 mt-n3">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.</span>
+            </div>
+            <div class="col-3 best">
+                <div ><img  src="Images/3.svg" class="img-fluid" alt="Project Image"></div>
+                <span class="heading1">Maintain Security</span>
+                <span class="text1">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.</span>
+            </div>
+            <div class="col-3 best">
+                <div ><img  src="Images/4.svg" class="img-fluid" alt="Project Image"></div>
+                <span class="heading1">Better Strategy & Quality</span>
+                <span class="text1">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.</span>
+            </div>
+        </div>
+        <div class="header-text mt-5 ">
+            <h3 class="Firstheading pt-3 pb-3">
+                <span>OUR PROJECT</span> </h3>
+        </div>
+        <div class="subtitle-text mt-2 mb-5">
+            <span>WHY WE ARE BEST</span>
+        </div>
+        <div class="row content-section align-items-start">
+            <div class="col-lg-8">
+                <img id="projectImage" src="Images/image.png" class="img-fluid" alt="Project Image">
+            </div>
+            
+            <div class="col-lg-3">
+                <div class="text-row d-flex flex-column  mb-0 p-4" data-image="image/Our-project-image3.png">
+                    <h6 class="custom-heading">Genderless Kei - Japan's Hot</h6>
+                    <p class="text">Set to launch on the manufacturer's new A330neo aircraft in 2017, it's offering lots of</p>
+                </div>
+                <div class="active text-row d-flex flex-column  mb-0 p-4" data-image="Images/image.png">
+                    <h6 class="custom-heading">Better Strategy & Quality</h6>
+                    <p class="text">Set to launch on the manufacturer's new A330neo aircraft in 2017, it's offering lots of</p>
+                </div>
+                <div class="text-row d-flex flex-column mb-0 p-4" data-image="image/Our-project-image2.png">
+                    <h6 class="custom-heading">Genderless Kei - Japan's Hot</h6>
+                    <p class="text">Set to launch on the manufacturer's new A330neo aircraft in 2017, it's offering lots of</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+     <!--Our project End-->
+     <!--GROWTH START-->
+    <section class="mt-5 pt-5">
+        <article class="mainbox">
+            <div class="first-heading mt-4">
+                <p>EXPERTS GROWTH</p>
+            </div>
+            <div class="heading">
+                <span>OUR COMPANY GROWTH</span>
+            </div>
+            <div class="container">
+                <div class="row justify-content-center mt-4">
+                    <div class="col-lg-3 col-md-4 col-sm-6 mb-3">
+                        <div class="satisfy">
+                            <div class="Simg pb-2"><img src="Images/heart.png"></div>
+                            <div class="Sh1"><h1>199 +</h1></div>
+                            <div class="Sh2">Satisfied Customers</div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 mb-3">
+                        <div class="days">
+                            <div class="Simg pb-2"><img src="Images/clock.png"></div>
+                            <div class="Sh1"><h1>1591 +</h1></div>
+                            <div class="Sh2">Days Of Operation</div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 mb-3">
+                        <div class="complete">
+                            <div class="Simg pb-2"><img src="Images/Path 4402.png"></div>
+                            <div class="Sh1"><h1>283 +</h1></div>
+                            <div class="Sh2">Completed Projects</div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 mb-3">
+                        <div class="awards">
+                            <div class="Simg pb-2"><img src="Images/Path 4406.png"></div>
+                            <div class="Sh1"><h1>75 +</h1></div>
+                            <div class="Sh2">Awards Won</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </section>
+      <!--GROWTH END-->
+      <!--CLIEND FEED BACK START-->
+      <section>
+        <article class="">
+            <div class="first-heading">
+                <p>client's feedback</p>
+            </div>
+            <div class="heading mb-4">
+                <span>people say's about us !</span>
+            </div>
+            <div class="container pt-4 mt-4">
+                <span class="Jannat">Jannat Tumpa The standard chunk of Lorem Ipsum used since the 1500s is<br> reproduced below for those interested. Sections Bonorum et Malorum original.</span>
+            <div class="mt-2"><span class="first-span">JANNAT TUMPA</span><span class="second-span">- COO, AMERIMAR ENTERPRISES, INC.</span></div>
+            </div>
+        </article>
+    </section>
+      <!--CLIENT FEEDBACK END-->
+      <!--Company start-->
+      <div class="company">
+        <img src="Images/Group 500.png">
+      </div>
+       <!--Company END-->
+</body>
+</html>
