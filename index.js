@@ -13,7 +13,7 @@ $(document).ready(function () {
          $.ajax({
             type: "POST",
             //url: 'https://getform.io/f/arolowkb', 
-            url: '',
+            url: 'https://getform.io/f/bolgmpqa',
             data: jsonData,
             contentType: 'application/json',
             headers: {
