@@ -1,0 +1,497 @@
+/* Contact US START */
+.image-section {
+    text-align: center;
+}
+.text-section {
+    text-align: center;
+    padding: 20px;
+}
+.image-section img {
+    max-width: 100%;
+    height: auto;
+}
+.modal-body .form-check {
+    margin-bottom: 15px;
+}
+.modal-body .form-check-input {
+    border: 2px solid rgba(255, 51, 102, 1);
+    border-radius: 3px;
+}
+.modal-body .form-check-input:checked {
+    background-color: rgba(255, 51, 102, 1);
+    border-color: rgba(255, 51, 102, 1);
+}
+.modal-body .form-check-input:checked::after {
+    color: white;
+}
+.btn-primary, .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+    border-color: rgba(255, 51, 102, 1) !important; 
+    background: rgba(255, 51, 102, 1)0% 0% no-repeat padding-box !important;
+    box-shadow: none !important;
+    transition: none;
+}
+.modal-dialog {
+    max-width: 450px; 
+    margin: 30px auto;
+}
+.modal-content {
+    height: 362px; 
+}
+.form-floating {
+    position: relative;
+}
+.form-floating input {
+    border: none;
+    border-bottom: 2px solid rgba(111, 113, 143, 0.6);
+    border-radius: 0;
+    padding-left: 0px !important;
+    padding-bottom: 0px !important;
+    width: 100%;
+}
+.form-check-label {
+    color: #616678;
+    margin-bottom: 0;
+}
+.btn-block {
+    width: 100%;
+}
+.form-control:focus {
+    border-color: rgba(111, 113, 143, 0.6); 
+    box-shadow: none; 
+    outline: none; 
+}
+.form-floating label::after {
+    content: '*';
+    color: grey;
+    position: absolute;
+    margin-left: 2px;
+}
+.form-floating .form-control:focus + label::after,
+.form-floating .form-control:not(:placeholder-shown) + label::after {
+    content: '';
+}
+.Award {
+    font: normal normal 600 30px/110px Cormorant SC;
+    letter-spacing: 0px;
+    color: #FF3147;
+    text-transform: uppercase;
+    opacity: 1;
+    text-align: left;
+}
+.digital {
+    text-align: left;
+    font: normal normal bold 50px/80px Cormorant SC;
+    letter-spacing: 0px;
+    color: #000000;
+    text-transform: uppercase;
+    opacity: 1;
+    display: block;
+    line-height: 1.3;
+}
+.Contact.Lorem {
+    text-align: left;
+    font: normal normal normal 20px/30px Poppins;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    display: block;
+    line-height: 1.3;
+}
+.btn-primary.float-start {
+    width: 160px;
+    height: 50px;
+    background: #FF3147 0% 0% no-repeat padding-box;
+    border-radius: 2px;
+    opacity: 1;
+}
+.buttontext {
+    text-align: left;
+    font: normal normal 600 14px/26px Poppins;
+    letter-spacing: 1.4px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.talk {
+    text-align: left;
+    letter-spacing: 0.4px;
+    color: #2D3142;
+    opacity: 1;
+}
+.custom-label {
+    color: #6F718F99 !important;
+}
+.form-check-input:focus {
+    outline: none; 
+    box-shadow: none;
+}
+.btn-custom {
+    width: 385.9px;
+    height: 52px;
+}
+.btn-custom-span {
+    width: 95px;
+    height: 23px;
+    font: normal normal 600 18px/26px AktivGrotesk-Bold;
+}
+.form-control {
+    color: rgba(45, 49, 66, 1) !important; 
+    text-align: left;
+    letter-spacing: 0.4px;
+}
+.Jannat{
+text-align: left;
+font: normal normal normal 20px/34px Poppins;
+letter-spacing: 0px;
+color: rgba(0, 0, 0, 1);
+opacity: 1;
+/* text-align: center; */
+}
+.first-span{
+text-align: left;
+font: normal normal bold 20px/34px Poppins;
+letter-spacing: 0px;
+color: rgba(255, 49, 71, 1);
+opacity: 1;
+}
+.second-span{
+text-align: left;
+font: normal normal 300 20px/34px Poppins;
+letter-spacing: 0px;
+color: rgba(128, 128, 128, 1);
+opacity: 1;
+}
+
+/* Contact US END */
+/*Serive Provide For you Start*/ 
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+.hover-container {
+    position: relative;
+    overflow: hidden;
+}
+.web-development-card {
+    opacity: 0;
+    background-color: #ed4255;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: opacity 0.5s ease;
+
+}
+.web-development-card img {
+    width: 50px;
+    height: 50px;
+}
+.web-development-card h3 {
+text-align: center;
+font: normal normal 600 24px/26px Cormorant SC;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
+.web-development-card p {
+text-align: center;
+font: normal normal normal 16px/30px Poppins;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
+.read-more-btn {
+    background-color: white;
+    color: #FF3147;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 550;
+}
+.read-more-btn img {
+    margin-left: 0.5rem;
+}
+@media (max-width: 768px) {
+    .web-development-card {
+        padding: 1rem;
+    }
+    .web-development-card h3 {
+        font-size: 1rem;
+    }
+    .web-development-card p {
+        font-size: 0.875rem;
+    }
+    .read-more-btn {
+        padding: 0.5rem 1rem;
+        font-size: 0.875rem;
+    }
+    .read-more-btn img {
+        width: 16px;
+        height: 16px;
+    }
+}
+@media (max-width: 576px) {
+    .web-development-card {
+        padding: 0.75rem;
+    }
+    .web-development-card h3 {
+        font-size: 0.875rem;
+    }
+    .web-development-card p {
+        font-size: 0.75rem;
+    }
+    .read-more-btn {
+        padding: 0.5rem 0.75rem;
+        font-size: 0.75rem;
+    }
+    .read-more-btn img {
+        width: 14px;
+        height: 14px;
+    }
+}
+.custom-indicator.active .indicator-icon {
+    background-image: url('Images/Active-button.png');
+}
+.web-development-card .read-more {
+width: 37px; 
+height: 10px; 
+}
+.muted-text{
+text-align: left;
+font: normal normal 600 24px/26px Cormorant SC;
+letter-spacing: 0px;
+color: #FF3147;
+opacity: 1;
+}
+.service{
+font: normal normal bold 35px/65px Cormorant SC;
+letter-spacing: 0px;
+color: #000000;
+text-transform: uppercase;
+line-height: 1.5;
+text-align: left;
+}
+.morbi{
+text-align: left;
+font: normal normal normal 17px/30px Poppins;
+letter-spacing: 0px;
+color: #000000;
+line-height: 1.5;
+}
+/*Serive Provide For you End*/
+/* our project Start*/
+body {
+    padding-top: 3.5rem !important
+}
+.header-text {
+    text-align: center;
+    font: normal normal 600 24px/26px Cormorant SC;
+    letter-spacing: 0px;
+    color: #FF3147;
+    text-transform: uppercase;
+    opacity: 1;
+}
+.subtitle-text {
+    text-align: center;
+    font: normal normal bold 45px/65px Cormorant SC;
+    letter-spacing: 0px;
+    color: #000000;
+    text-transform: uppercase;
+    opacity: 1;
+    margin-bottom: 30px; 
+}
+.content-section {
+    margin-top: 20px;
+}
+.content-section img {
+    width: 100%;
+    height: auto;
+    max-height: 500px; 
+    object-fit: cover;
+}
+.text-row {
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    background: #F6F6F6 0% 0% no-repeat padding-box;
+    margin-bottom: 20px; 
+    padding-left: 2.5rem !important;
+    padding-right: 2.5rem !important;
+}
+.text-row.active {
+    background: #FF3147 0% 0% no-repeat padding-box;
+    color: #FFFFFF;
+}
+.custom-heading {
+    text-align: left;
+    margin-bottom: 7px;
+    font: normal normal medium 20px/80px Poppins;
+    letter-spacing: 0px;
+    font-size: 1.10rem;
+}
+.text-row p.text {
+    text-align: left;
+    letter-spacing: 0px;
+    margin-top: 0;
+    font: normal normal normal 16px/28px Poppins;
+    margin-bottom: 0.5rem;
+}
+.text1{
+    
+    text-align: left;
+    font: normal normal normal 16pt/26pt Poppins;
+    letter-spacing: 0pt;
+    color: #000000;
+    opacity: 1;
+    line-height: 25px;
+    display: block;
+    margin-top: -1.25rem !important;
+}
+.heading1
+{
+    font-size: 1.4rem !important;
+    text-align: left;
+    font: normal normal 550 20pt/80pt Poppins;
+    letter-spacing: 0pt;
+    color: #000000;
+    opacity: 1;
+    display: block;
+}
+.best img {
+    height: 100px;
+    
+}
+.best{
+    text-align: left;
+}
+
+/* our project End*/
+/*GROWTH STRAT*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+section {
+    min-height: 45vh;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainbox {
+    width: 100%;
+    background: rgba(250, 250, 250, 1);
+    padding: 20px;
+}
+
+.first-heading {
+    text-align: center;
+    font: normal normal 600 24px/26px Cormorant SC;
+    color: #FF3147;
+    text-transform: uppercase;
+    opacity: 1;
+    margin-bottom: 20px; 
+}
+
+.heading {
+    text-align: center;
+    font: normal normal bold 40px/65px Cormorant SC;
+    color: #000000;
+    text-transform: uppercase;
+    opacity: 1;
+    margin-bottom: 20px; 
+}
+
+.satisfy, .days, .complete, .awards {
+    text-align: center;
+    padding: 20px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.satisfy:hover, .days:hover, .complete:hover, .awards:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    background: #FFFFFF;
+    box-shadow: 3px 6px 20px #672C2C1F;
+    opacity: 1;
+}
+
+.Simg {
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.Sh1 {
+    text-transform: uppercase;
+    width: 100%;
+    height: 30px;
+}
+
+.Sh1, .Sh2 {
+    text-align: center;
+    font: normal normal 300 20px/80px Poppins;
+    color: #000000;
+    opacity: 1;
+}
+
+@media (max-width: 576px) {
+    .first-heading {
+        font-size: 18px;
+    }
+    .heading {
+        font-size: 24px;
+    }
+    .Sh1, .Sh2 {
+        font-size: 16px;
+    }
+}
+/* GROWTH END*/
+/* company STRAT*/
+.company {
+    display: flex;
+    justify-content: center; 
+    align-items: center;   
+    max-width: 100%; 
+    height: 310px; 
+    border: 1px solid #ddd;
+    background-color: rgba(255, 49, 71, 1);
+    overflow: hidden;
+}
+.company img {
+    max-width: 100%; 
+    height: auto; 
+    display: block;
+}
+
+/* COMPANY END*/
+@media (max-width: 768px) {
+    section {
+        min-height: 25vh; 
+        padding: 20px;
+        box-sizing: border-box;
+        text-align: center;
+    }
+}
+@media (min-width: 769px) {
+    section {
+        min-height: 45vh;
+    }
+}
